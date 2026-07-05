@@ -1,0 +1,23 @@
+{
+  "message": "Success",
+  "result": [
+    {
+      "message": "Success",
+      "input": "contoh_invoice.pdf",
+      "prediction": [
+        {
+          "type": "field",
+          "label": "Invoice_Number",
+          "score": 0.99,
+          "ocr_text": "INV-2026-0001"
+        }
+      ],
+      "signed_urls": {
+        "contoh_invoice.pdf": {
+          "original": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "original_compressed": ""
+        }
+      }
+    }
+  ]
+}
